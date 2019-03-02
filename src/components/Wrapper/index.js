@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-function Wrapper() {
-    return <div className="wrapper"><h1>Hello Infierno</h1></div>;
+function Wrapper(props) {
+    return <div className="wrapper">{props.children}</div>;
 }
 
 export default Wrapper;
