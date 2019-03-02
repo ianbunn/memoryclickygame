@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ianbunn/memoryclickygame.git/precache-manifest.85ec47e370015290082ad1db8efedd19.js"
+  "/memoryclickygame/precache-manifest.9afbf8ffab616f0ede1567748ef948e5.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ianbunn/memoryclickygame.git/index.html", {
+workbox.routing.registerNavigationRoute("/memoryclickygame/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
