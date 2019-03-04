@@ -9,14 +9,21 @@ import cards from "./cards.json";
 class App extends Component {
   // PASSING IN CARDS.JSON
   state = {
-    cards
+    cards: cards,
+    currentScore: 0,
+    topScore: 0,
+    clickedCards: []
   };
   // CHECK FOR CLICKED VALUE
   hasBeenClicked = id => {
-    // const cards = this.state.cards.filter(card => card.id !== id);
-    // Set this.state.friends equal to the new friends array
-    // this.setState({ cards });
-    console.log(id)
+    const { clickedCards } = this.state
+    let clickedId = id
+    if (clickedCards.indexOf(clickedId) > -1) {
+      return alert("game over")
+    } else {
+      clickedCards.push(id)
+      console.log(clickedCards)
+    }
   };
 
   render() {

@@ -2,73 +2,61 @@
     {
         "id": 1,
         "name": "Antonio Brown",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/antoniobrown.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/antoniobrown.png"
     },
     {
         "id": 2,
         "name": "Deshaun Watson",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/deshaunwatson.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/deshaunwatson.png"
     },
     {
         "id": 3,
         "name": "Drew Brees",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/drewbrees.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/drewbrees.png"
     },
     {
         "id": 4,
         "name": "James White",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/jameswhite.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/jameswhite.png"
     },
     {
         "id": 5,
         "name": "Josh Gordon",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/joshgordon.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/joshgordon.png"
     },
     {
         "id": 6,
         "name": "Leveon Bell",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/leveonbell.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/leveonbell.png"
     },
     {
         "id": 7,
         "name": "Malcolm Butler",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/malcolmbutler.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/malcolmbutler.png"
     },
     {
         "id": 8,
         "name": "Odell Beckham",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/odellbeckham.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/odellbeckham.png"
     },
     {
         "id": 9,
         "name": "Richard Sherman",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/richardsherman.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/richardsherman.png"
     },
     {
         "id": 10,
         "name": "Rob Gronkowski",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/robgronkowski.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/robgronkowski.png"
     },
     {
         "id": 11,
         "name": "Ronald Darby",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/ronalddarby.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/ronalddarby.png"
     },
     {
         "id": 12,
         "name": "Tom Brady",
-        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/tombrady.png",
-        "clicked": false
+        "image": "https://raw.githubusercontent.com/ianbunn/memoryclickygame/master/public/images/tombrady.png"
     }
 ]
