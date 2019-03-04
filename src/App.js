@@ -16,7 +16,7 @@ class App extends Component {
     // const cards = this.state.cards.filter(card => card.id !== id);
     // Set this.state.friends equal to the new friends array
     // this.setState({ cards });
-    console.log(this.state.clicked.indexOf(id))
+    console.log(id)
   };
 
   render() {
