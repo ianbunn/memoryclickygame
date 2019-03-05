@@ -19,12 +19,31 @@ class App extends Component {
     const { clickedCards } = this.state
     let clickedId = id
     if (clickedCards.indexOf(clickedId) > -1) {
-      return alert("game over")
+      this.gameOver()
+      alert("game over")
     } else {
       clickedCards.push(id)
+      this.shuffleCards()
       console.log(clickedCards)
     }
   };
+  // SHUFFLE CARDS AFTER EVERY CLICK
+  shuffleCards = ()=> {
+    const cards = [].concat(this.state.cards)
+    console.log(cards)
+    for (let i = cards.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [cards[i], cards[j]] = [cards[j], cards[i]];
+    }
+    this.setState({ cards });
+  }
+  // GAME OVER
+  gameOver = ()=> {
+    this.setState({
+      currentScore: 0,
+      clickedCards: []
+    })
+  }
 
   render() {
     return (
