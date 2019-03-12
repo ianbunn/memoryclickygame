@@ -1,3 +1,10 @@
+.navbar {
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  width: 100%;
+  margin-top: -25px;
+}
 .title {
   width: 100%;
   text-align: center;

@@ -30,24 +30,15 @@ class App extends Component {
 
     // CHECK IF CARD IS IN CLICKED CARDS ARRAY
     if (clickedCards.indexOf(clickedId) > -1) {
-      
       // CHECK IF CURRENT SCORE IS GREATER THAN TOP SCORE
       if (currentScore > topScore) {
         // IF SO, SET CURRENT SCORE AS TOP SCORE
         this.setState({topScore: currentScore})
       }
       // IF IN CLICKED CARDS ARRAY, RUN GAME OVER!
-      this.gameOver(currentScore)
-      // ALERT GAME OVER WITH CURRENT SCORE AND TOP SCORE
-      // CHECK IF CURRENT SCORE IS GREATER THAN TOP SCORE
-      if(currentScore > topScore) {
-        // IF SO, USE CURRENT SCORE AS TOP SCORE TO ALERT
-        alert(`GAME OVER: Current score: ${currentScore}, Top Score: ${currentScore}`)
-      } else {
-        // IF NOT, USE TOP SCORE TO ALERT
-        alert(`GAME OVER: Current score: ${currentScore}, Top Score: ${topScore}`)
-      }
-    } else if(currentScore < 11) {
+      this.gameOver(currentScore, topScore)
+      
+    } else if(currentScore < 12) {
       // IF NOT IN CLICKED CARDS ARRAY, PUSH CARD TO CLICKED CARDS ARRAY
       clickedCards.push(id)
       // CHECK IF CURRENT SCORE IS GREATER THAN TOP SCORE
@@ -56,6 +47,7 @@ class App extends Component {
         this.setState({currentScore: currentScore + 1})
         this.setState({ topScore: currentScore})
       }
+      
       // RUN SHUFFLE CARDS
       this.shuffleCards()
     }
@@ -72,14 +64,15 @@ class App extends Component {
   }
 
   // GAME OVER
-  gameOver = (currentScore)=> {
+  gameOver = (currentScore, topScore)=> {
+    // ALERT GAME OVER WITH CURRENT SCORE AND TOP SCORE
+    // CHECK IF CURRENT SCORE IS GREATER THAN TOP SCORE
     if(currentScore > 11) {
-      this.setState({
-        // SET CURRENT SCORE TO 0 AND CLEAR OUT THE CLICKED CARDS ARRAY
-        currentScore: 0,
-        clickedCards: []
-      })
-      return alert("Game won!")
+      alert(`Game won! Current Score: ${currentScore} Top Score: ${topScore}`)
+    } else if(currentScore > topScore) {
+      alert(`Got a better score than last round. Current Score: ${currentScore} Top Score: ${topScore}`)
+    } else {
+      alert(`Oh, you gotta do better than that! Current Score: ${currentScore} Top Score: ${topScore}`)
     }
     this.setState({
       // SET CURRENT SCORE TO 0 AND CLEAR OUT THE CLICKED CARDS ARRAY
