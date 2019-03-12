@@ -1,13 +1,14 @@
 {
-  "main.css": "/memoryclickygame/static/css/main.794cbbd5.chunk.css",
-  "main.js": "/memoryclickygame/static/js/main.2d68480f.chunk.js",
-  "main.js.map": "/memoryclickygame/static/js/main.2d68480f.chunk.js.map",
+  "main.css": "/memoryclickygame/static/css/main.f061aa46.chunk.css",
+  "main.js": "/memoryclickygame/static/js/main.c8d2c885.chunk.js",
+  "main.js.map": "/memoryclickygame/static/js/main.c8d2c885.chunk.js.map",
   "runtime~main.js": "/memoryclickygame/static/js/runtime~main.4b0681b3.js",
   "runtime~main.js.map": "/memoryclickygame/static/js/runtime~main.4b0681b3.js.map",
   "static/js/2.5bf9b2cd.chunk.js": "/memoryclickygame/static/js/2.5bf9b2cd.chunk.js",
   "static/js/2.5bf9b2cd.chunk.js.map": "/memoryclickygame/static/js/2.5bf9b2cd.chunk.js.map",
   "index.html": "/memoryclickygame/index.html",
-  "precache-manifest.6c1351065157cb96bf36daac6556f207.js": "/memoryclickygame/precache-manifest.6c1351065157cb96bf36daac6556f207.js",
+  "precache-manifest.0cfb596cd60c64e887795ec8800d1e11.js": "/memoryclickygame/precache-manifest.0cfb596cd60c64e887795ec8800d1e11.js",
   "service-worker.js": "/memoryclickygame/service-worker.js",
-  "static/css/main.794cbbd5.chunk.css.map": "/memoryclickygame/static/css/main.794cbbd5.chunk.css.map"
+  "static/css/main.f061aa46.chunk.css.map": "/memoryclickygame/static/css/main.f061aa46.chunk.css.map",
+  "static/media/index.css": "/memoryclickygame/static/media/background.e3e111e4.png"
 }
