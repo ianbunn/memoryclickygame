@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/memoryclickygame/static/js/runtime~main.4b0681b3.js"
   },
   {
-    "revision": "c8d2c885248b70c9becf",
-    "url": "/memoryclickygame/static/js/main.c8d2c885.chunk.js"
+    "revision": "61d5cb6858fa89c22cc7",
+    "url": "/memoryclickygame/static/js/main.61d5cb68.chunk.js"
   },
   {
     "revision": "5bf9b2cda7c63b962686",
     "url": "/memoryclickygame/static/js/2.5bf9b2cd.chunk.js"
   },
   {
-    "revision": "c8d2c885248b70c9becf",
-    "url": "/memoryclickygame/static/css/main.f061aa46.chunk.css"
+    "revision": "61d5cb6858fa89c22cc7",
+    "url": "/memoryclickygame/static/css/main.7cbd6b8c.chunk.css"
   },
   {
-    "revision": "63c47913b13d209e2e22f1a550094f01",
+    "revision": "91f3e1d1aa4637fbd6c2025895d2bfb2",
     "url": "/memoryclickygame/index.html"
   }
 ];
