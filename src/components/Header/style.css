@@ -5,9 +5,21 @@
   width: 100%;
   margin-top: -25px;
 }
-.title {
-  width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 50px;
+
+.brand {
+  padding: 10px;
+  font-family: 'Black Ops One', cursive;
+}
+.brand a {
+  text-decoration: none;
+  color: #064189;
+}
+
+.scores {
+  padding: 10px;
+  margin-right: 10px;
+  position: fixed;
+  right: 0;
+  font-family: 'Oxygen', sans-serif;
+  color: #064189
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Wrapper from './components/Wrapper'
 import Header from './components/Header'
-// import Instructions from './components/Instructions'
+import Instructions from './components/Instructions'
 import Card from './components/Card'
 import cards from "./cards.json";
 
@@ -88,6 +88,7 @@ class App extends Component {
           currentScore={this.state.currentScore}
           topScore={this.state.topScore}
         />
+        <Instructions />
         {this.state.cards.map(card => (
           <Card
             hasBeenClicked={this.hasBeenClicked}
